@@ -1,7 +1,7 @@
 import React from "react";
 import './index.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import Navigation from "./components/Header/Navigation";
 import Footer from "./components/Footer/Footer";
 import Home from "./pages/Home";
@@ -17,21 +17,19 @@ function App() {
 
   return (
     <>
-      <Router>
-        <Navigation />
-        <ScrollToTop>
-          <Routes>
 
-            <Route exact path='/' element={<Home />}></Route>
-            <Route exact path='/services' element={<Services />}></Route>
-            <Route exact path='/galary' element={<Galary />}></Route>
-            <Route exact path='/about' element={<About />}></Route>
-            <Route path="*" element={<PageNotFound />} ></Route>
+      <Navigation />
+      <ScrollToTop>
+        <Routes>
+          <Route exact path='/' element={<Home />}></Route>
+          <Route exact path='/services' element={<Services />}></Route>
+          <Route exact path='/galary' element={<Galary />}></Route>
+          <Route exact path='/about' element={<About />}></Route>
+          <Route path="*" element={<PageNotFound />} ></Route>
+        </Routes>
+      </ScrollToTop>
+      <Footer />
 
-          </Routes>
-        </ScrollToTop>
-        <Footer />
-      </Router>
     </>
   );
 }
