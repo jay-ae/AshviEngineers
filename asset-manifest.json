@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/AshviEngineers/static/css/main.52153a55.css",
-    "main.js": "/AshviEngineers/static/js/main.1c4cc750.js",
+    "main.js": "/AshviEngineers/static/js/main.dc890be2.js",
     "static/js/787.2eb8fe68.chunk.js": "/AshviEngineers/static/js/787.2eb8fe68.chunk.js",
     "static/media/metal.jpg": "/AshviEngineers/static/media/metal.c68ffa78a3a8c09bb35a.jpg",
     "static/media/wooden.jpg": "/AshviEngineers/static/media/wooden.4fa9036d39ea1af77549.jpg",
@@ -17,11 +17,11 @@
     "static/media/AE_LOGO.png": "/AshviEngineers/static/media/AE_LOGO.d5af3163b4bc73202554.png",
     "index.html": "/AshviEngineers/index.html",
     "main.52153a55.css.map": "/AshviEngineers/static/css/main.52153a55.css.map",
-    "main.1c4cc750.js.map": "/AshviEngineers/static/js/main.1c4cc750.js.map",
+    "main.dc890be2.js.map": "/AshviEngineers/static/js/main.dc890be2.js.map",
     "787.2eb8fe68.chunk.js.map": "/AshviEngineers/static/js/787.2eb8fe68.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.52153a55.css",
-    "static/js/main.1c4cc750.js"
+    "static/js/main.dc890be2.js"
   ]
 }
