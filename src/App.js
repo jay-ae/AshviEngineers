@@ -21,10 +21,10 @@ function App() {
       <Navigation />
       <ScrollToTop>
         <Routes>
-          <Route exact path='/' element={<Home />}></Route>
-          <Route exact path='/services' element={<Services />}></Route>
-          <Route exact path='/galary' element={<Galary />}></Route>
-          <Route exact path='/about' element={<About />}></Route>
+          <Route path='/' element={<Home />}></Route>
+          <Route path='/services' element={<Services />}></Route>
+          <Route path='/galary' element={<Galary />}></Route>
+          <Route path='/about' element={<About />}></Route>
           <Route path="*" element={<PageNotFound />} ></Route>
         </Routes>
       </ScrollToTop>

@@ -41,7 +41,6 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "http://jay-ae.github.io/AshviEngineers",
   "devDependencies": {
     "gh-pages": "^4.0.0"
   }
