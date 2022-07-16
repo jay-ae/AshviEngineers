@@ -6,12 +6,20 @@ import { BsArrowRight } from 'react-icons/bs'
 import { Link } from 'react-router-dom';
 import GalaryDiv from '../components/General/GalaryDiv';
 import down from './Image/Scroll_Down_Arrow.png'
-import img1 from './Image/img1.png';
-import img2 from './Image/img2.png';
-import img4 from './Image/img4.png';
-import metal from './Image/metal.jpg'
-import drill from './Image/Drill.jpg'
-import wooden from './Image/wooden.jpg'
+// import img1 from './Image/img1.png';
+// import img2 from './Image/img2.png';
+// import img4 from './Image/img4.png';
+
+import Pattern from '../pages/Image/all-type-pattern.jpeg'
+import Jig from '../pages/Image/Jig-Fixture.jpeg'
+import Art from '../pages/Image/Art-wooden-work.jpeg'
+
+import img1 from '../pages/Image/Machine-1.jpeg'
+import img2 from '../pages/Image/Wooden_Work.jpeg'
+import img3 from '../pages/Image/Pattern4.jpeg'
+
+
+
 
 const scrollToRef = (ref) => window.scrollTo(0, ref.current.offsetTop)
 
@@ -52,17 +60,17 @@ function Home() {
                     <Row className='home-service-row'>
                         <ServiceCard
                             CardTitle='All type of Patterns'
-                            ImgSrc={metal}
+                            ImgSrc={Pattern}
                             CardBody='We creates all type of patterns of Aluminium, Wooden (any size), Thermocol etc..'
                         />
                         <ServiceCard
                             CardTitle='Jig Fixture'
-                            ImgSrc={drill}
+                            ImgSrc={Jig}
                             CardBody='We makes Jigs and Fixtures for CNC, VMC, Drill, Lathe Machine Tools etc...All type of machines tools.'
                         />
                         <ServiceCard
                             CardTitle='Art wooden works'
-                            ImgSrc={wooden}
+                            ImgSrc={Art}
                             CardBody='We provides wooden art work (carving, cutting based on design) on Archiect based as well as for personal work. '
 
                         />
@@ -90,7 +98,7 @@ function Home() {
                     <Row className='home-service-row'>
                         <GalaryDiv ImgSrc={img1} />
                         <GalaryDiv ImgSrc={img2} />
-                        <GalaryDiv ImgSrc={img4} />
+                        <GalaryDiv ImgSrc={img3} />
                         <div className='more-btn-div'>
                             <Button className='custom-btn-more'>
                                 <Link className='custom-btn-link' to='/galary'>More  <BsArrowRight /></Link>

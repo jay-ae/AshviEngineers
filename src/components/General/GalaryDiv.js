@@ -8,7 +8,7 @@ function GalaryDiv(props) {
             <Col lg={3} md={6} sm={12} xs={12} className='pt-3 pb-5'>
                 <div className="hover01 column">
                     <div>
-                        <figure> <Image className='img-fluid' src={props.ImgSrc} /></figure>
+                        <figure> <Image className='img-fluid img-shadow ' src={props.ImgSrc} /></figure>
                     </div>
                 </div>
 

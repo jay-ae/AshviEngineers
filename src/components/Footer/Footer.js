@@ -15,7 +15,7 @@ function Footer() {
                     <Row className='margin-right'>
                         <Col lg={3} md={6} sm={6}>
                             <h4><p className='mt-5'><b>Important Links</b></p></h4>
-                            <hr className='custom-hr' />
+                            <hr className='custom-hr-75' />
                             <Nav.Link className='custom-link' as={Link} to="/" >Home</Nav.Link>
                             <Nav.Link className='custom-link' as={Link} to="/services" >Our Services</Nav.Link>
                             <Nav.Link className='custom-link' as={Link} to="/galary" >Galary</Nav.Link>
@@ -24,7 +24,7 @@ function Footer() {
                         </Col>
                         <Col lg={3} md={6} sm={6}>
                             <h4><p className='mt-5'><b>Contact us</b></p></h4>
-                            <hr className='custom-hr' />
+                            <hr className='custom-hr-75' />
                             <div>
                                 <p><BsPerson /> Sameer Kharecha</p>
                                 <p><BsPhone /> 98984 71706</p>
@@ -40,14 +40,14 @@ function Footer() {
 
                         <Col lg={3} md={6} sm={6}>
                             <h4><p className='mt-5'><b>Address</b></p></h4>
-                            <hr className='custom-hr' />
+                            <hr className='custom-hr-75' />
                             <p className='footer-address-p'><MdOutlineLocationCity /> Plot No. 9, Revenue Survey No. 642, Surbhi Industrial Zone-2, Shed No. 3,
                                 Ravki, Lodhika, Rajkot - 360035, Gujarat.</p>
                         </Col>
 
                         <Col lg={3} md={6} sm={6}>
                             <h4><p className='mt-5'><b>Location</b></p></h4>
-                            <hr className='custom-hr' />
+                            <hr className='custom-hr-75' />
                             <div className='d-flex justify-content-center'>
 
                                 <iframe className="responsive-iframe"

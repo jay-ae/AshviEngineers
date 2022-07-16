@@ -180,14 +180,18 @@ body {
 
 .service-div {
   padding: 50px 30px !important;
-  margin-top: 25px;
+  /* margin-top: 40px; */
   background-color: #ffffff;
   border-radius: 50px;
+  margin: 40px 10px 0px 10px;
 
-  -webkit-box-shadow: 0px 0px 10px 1px rgba(63, 166, 144, 1);
-  -moz-box-shadow: 0px 0px 10px 1px rgba(63, 166, 144, 1);
-  box-shadow: 0px 0px 10px 1px rgba(63, 166, 144, 1);
+  -webkit-box-shadow: 0px 0px 10px 5px rgba(63, 166, 144, 1);
+  -moz-box-shadow: 0px 0px 10px 5px rgba(63, 166, 144, 1);
+  box-shadow: 0px 0px 10px 5px rgba(63, 166, 144, 1);
 }
+
+
+
 
 .service-heading {
   color: #565656 !important;
@@ -199,6 +203,15 @@ body {
   text-align: justify;
 }
 
+@media(max-width:400px) {
+  .service-body-text {
+    text-align: left;
+  }
+
+  .service-div {
+    padding: 30px 20px !important;
+  }
+}
 
 .center-in-div {
   display: flex;
@@ -224,6 +237,16 @@ body {
 
 
 
+}
+
+.img-shadow {
+  padding: 10px;
+  border: 5px solid #565656;
+}
+
+.img-shadow:hover {
+  box-shadow: 0px 0px 10px 7px #ababab;
+  /* box-shadow: 0px 0px 5px 5px rgba(63, 166, 144, 1); */
 }
 
 
@@ -267,6 +290,11 @@ figure {
 
 
 /* Custom CSS */
+.custom-hr-75:not([size]) {
+  width: 75%;
+  height: 2px !important;
+}
+
 .custom-hr:not([size]) {
   width: 25%;
   height: 3px !important;
