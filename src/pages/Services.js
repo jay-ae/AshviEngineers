@@ -51,7 +51,7 @@ function Services() {
 
             <Container>
                 <div className='service-div'>
-                    <Row className='center'>
+                    <Row className='center flex-wrap-reverse'>
                         <Col lg={4} className='center-in-div'>
                             <div className="hover01 column">
                                 <div>

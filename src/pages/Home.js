@@ -66,7 +66,7 @@ function Home() {
                         <ServiceCard
                             CardTitle='Jig Fixture'
                             ImgSrc={Jig}
-                            CardBody='We makes Jigs and Fixtures for CNC, VMC, Drill, Lathe Machine Tools etc...All type of machines tools.'
+                            CardBody='We makes Jig fixtures for CNC, VMC, Drill, Lathe Machine Tools etc...All type of machines tools.'
                         />
                         <ServiceCard
                             CardTitle='Art wooden works'
